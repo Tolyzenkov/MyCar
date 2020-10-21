@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="@drawable/bacground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CarInfo">
@@ -10,7 +11,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
         android:shadowColor="@android:color/black"
         android:shadowDx="6"
         android:shadowDy="2"
@@ -18,23 +19,176 @@
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal">
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/toyota_logo"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/toyota" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:paddingTop="10dp"
-            android:layout_marginLeft="30dp"
-
-
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
+            android:text="TOYOTA COROLLA"
+            android:textColor="@android:color/background_light"
             android:textSize="20sp"
-            android:text="TOYOTA COROLLA"/>
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A705HX 27"
+        android:textColor="@android:color/background_light"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="50dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пробег"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:labelFor="@+id/odoCount"
+                android:textSize="16sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/text_view_style"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="123456"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Год выпуска"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:labelFor="@+id/odoCount"
+                android:textSize="16sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/text_view_style"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="2001"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+        </LinearLayout>
+
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="50dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Номер кузова"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:labelFor="@+id/odoCount"
+                android:textSize="16sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/text_view_style"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="ZZE122301222"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тип топлива"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:labelFor="@+id/odoCount"
+                android:textSize="16sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/text_view_style"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="АИ-92"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Изменить данные"
+        android:textColor="@android:color/background_light" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Удалить автомобиль"
+        android:textColor="@android:color/background_light" />
+
+
+</LinearLayout>
 
 </LinearLayout>

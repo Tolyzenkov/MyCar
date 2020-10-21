@@ -4,65 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@android:color/black">
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:src="@drawable/carlogo" />
+    <Button
+        android:id="@+id/addNewCar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:drawable/ic_input_add"
+        android:layout_marginLeft="350dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/carlogo" />
+
+
+    </RelativeLayout>
+
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_width="291dp"
+        android:layout_height="369dp"
         android:layout_alignParentBottom="true"
-        android:layout_margin="60dp">
-    <Button
-        android:id="@+id/carInfo"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="ИНФОРМАЦИЯ ОБ АВТО" />
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="23dp"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/fuel"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:text="ЗАПРАВИТЬСЯ"/>
+        <Button
+            android:id="@+id/carInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:text="ИНФОРМАЦИЯ ОБ АВТО" />
 
-    <Button
-        android:id="@+id/Repair"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:text="ТЕХОБСЛУЖИВАНИЕ И РЕМОНТ"/>
+        <Button
+            android:id="@+id/fuel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="ЗАПРАВИТЬСЯ" />
 
-    <Button
-        android:id="@+id/parts"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:text="РАСХОДНИКИ И ЗАПЧАСТИ"/>
+        <Button
+            android:id="@+id/Repair"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="ТЕХОБСЛУЖИВАНИЕ И РЕМОНТ" />
 
-    <Button
-        android:id="@+id/other"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:text="ПРОЧЕЕ"/>
+        <Button
+            android:id="@+id/parts"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="РАСХОДНИКИ И ЗАПЧАСТИ" />
+
+        <Button
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="ПРОЧЕЕ" />
+
+        <Button
+            android:id="@+id/stats"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded"
+            android:text="СТАТИСТИКА" />
     </LinearLayout>
-
 
 
 </RelativeLayout>
