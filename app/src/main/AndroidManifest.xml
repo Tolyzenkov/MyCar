@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CarInfo"></activity>
+        <activity android:name=".repairAndTO"></activity>
+        <activity android:name=".Repair" />
+        <activity android:name=".AddCar" />
+        <activity android:name=".Fuel" />
+        <activity android:name=".CarInfo" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
