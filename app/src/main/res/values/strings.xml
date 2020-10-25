@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">MyCar</string>
+    
+    <string-array name="Brand">
+        <item>Модель</item>
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Honda</item>
+        <item>Subaru</item>
+        <item>Лада</item>
+    </string-array>
+
+    <string-array name="ToyotaModels">
+        <item>Corolla</item>
+        <item>Axio</item>
+        <item>Camry</item>
+        <item>Prius</item>
+    </string-array>
+
+    <string-array name="NissanModels">
+        <item>Liberty</item>
+        <item>AD</item>
+        <item>Juke</item>
+        <item>X-Trail</item>
+        <item>Note</item>
+    </string-array>
+
+    <string-array name="HondaModels">
+        <item>Fit</item>
+        <item>CR-V</item>
+        <item>Accord</item>
+        <item>Civic</item>
+    </string-array>
+
+    <string-array name="SubaruModels">
+        <item>Legacy</item>
+        <item>Legacy B4</item>
+        <item>Impreza</item>
+        <item>Forester</item>
+        <item>Outback</item>
+    </string-array>
 </resources>

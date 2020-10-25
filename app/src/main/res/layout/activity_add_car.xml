@@ -33,14 +33,13 @@
 
             <Spinner
                 android:id="@+id/spinnerBrand"
-
+                android:entries="@array/Brand"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/text_view_style"
                 android:dropDownWidth="wrap_content"
                 android:gravity="center_vertical|center_horizontal"
-                android:longClickable="false"
                 android:spinnerMode="dialog"
                 android:textSize="16sp" />
 
@@ -65,10 +64,12 @@
                 android:id="@+id/modelSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_gravity="center_horizontal"
+
                 android:background="@drawable/text_view_style"
-                android:gravity="center_vertical|center_horizontal"
-                android:textColor="@android:color/background_light"
+
+
+                android:gravity="center_horizontal"
+                android:spinnerMode="dialog"
                 android:textSize="16sp" />
 
         </LinearLayout>
