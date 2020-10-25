@@ -32,13 +32,13 @@
                 android:textColor="@android:color/background_light"
                 android:textSize="16sp" />
 
-            <TextView
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/text_view_style"
                 android:gravity="center_vertical|center_horizontal"
-                android:text="дата"
+                android:text="Выберите дату"
                 android:textColor="@android:color/background_light"
                 android:textSize="16sp" />
 
@@ -67,13 +67,12 @@
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/text_view_style"
                     android:gravity="center_vertical|center_horizontal"
-                    android:text="1000"
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
@@ -94,13 +93,12 @@
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/text_view_style"
                     android:gravity="center_vertical|center_horizontal"
-                    android:text="123456"
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
@@ -159,13 +157,12 @@
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/text_view_style"
                     android:gravity="center_vertical|center_horizontal"
-                    android:text="50"
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
@@ -186,13 +183,12 @@
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/text_view_style"
                     android:gravity="center_vertical|center_horizontal"
-                    android:text="48,5"
                     android:textColor="@android:color/background_light"
                     android:textSize="16sp" />
 
@@ -210,6 +206,7 @@
 
             <Button
                 android:layout_width="120dp"
+                android:onClick="cancel"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="60dp"
                 android:text="Отменить" />
